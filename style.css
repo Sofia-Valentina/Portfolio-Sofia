@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=PT+Sans+Narrow:wght@400;700&family=Righteous&family=Sarala&display=swap');
- 
+* {
+    box-sizing: border-box;
+  }
 *{
     margin: 0;
     padding: 0; 
@@ -8,7 +10,7 @@
 }
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #0b3938 16.62%, #602e67 85.61%);
+    background: rgb(203, 169, 167)
 }
 
 .cabecalho {
@@ -26,14 +28,14 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Sarala', sans-serif;
-    color: rgba(236, 214, 196, 1);
+    color: black;
     font-weight: 400;
     font-size: 18px;
 }
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid rgba(236, 214, 196, 1); 
+    border-top: 0.4px solid black; 
     }
 
 .conteudo-principal {
@@ -58,12 +60,12 @@ body {
     font-family:"Righteous", cursive;
     font-weight: 400;
     font-size: 64px;
-    color: rgba(236, 214, 196, 1);
+    color:black;
 }
 
 .conteudo-principal-escrito-subtitulo {
     font-family: "Sarala",sans-serif ;
-    color: rgba(236, 214, 196, 1);
+    color: black;
 }
 
  .conteudo-secundario {
@@ -74,5 +76,31 @@ body {
     margin-top: 48px;
     justify-content: space-around;
     font-family: "sarala", sans-serif;
-    color: rgba(236, 214, 196, 1);
+    color: black;
+ }
+ .area{
+    position:relative;
+    left:37%;
+    top:29%;
+    width:320px;
+    height:270px;
+  }
+
+ }
+ .Formulario { 
+    position: absolute;
+    
+
+   }
+
+ .rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+ }
+
+ @media screen and ( max-width: 3) {
+    
  }
